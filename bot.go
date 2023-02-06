@@ -256,8 +256,11 @@ func (b *Bot) syncCheck() error {
 		if !resp.Success() {
 			return resp.Err()
 		}
+		// TODO 添加更多的状态码处理
 		switch resp.Selector {
-		case SelectorNewMsg:
+		case SelectorNormal:
+			continue
+		default:
 			messages, err := b.syncMessage()
 			if err != nil {
 				return err
@@ -274,9 +277,6 @@ func (b *Bot) syncCheck() error {
 				b.updateGroups(message)
 				b.MessageHandler(message)
 			}
-		case SelectorModContact:
-		case SelectorAddOrDelContact:
-		case SelectorModChatRoom:
 		}
 	}
 	return err
