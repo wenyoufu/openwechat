@@ -188,7 +188,7 @@ func TestBBB(t *testing.T) {
 				user3, _ := msg.SenderInGroup()
 				fmt.Println(user3)
 				//if err == nil /* && strings.Contains(sender.NickName, "四季平安")*/ {
-				msg.ReplyText("???")
+				//msg.ReplyText("???")
 				//fmt.Println("test!!!", sender.NickName)
 			}
 			//}
