@@ -267,6 +267,16 @@ func (s *Self) Members(update ...bool) (Members, error) {
 	return s.members, nil
 }
 
+// 追加一个联系人接口
+func (s *Self) AppendMember(user *User) error {
+	oldCnt := s.members.Count()
+	s.members.Apppend(user)
+	if oldCnt == s.members.Count() {
+		return errors.New("添加失败")
+	}
+	return nil
+}
+
 // 更新联系人处理
 func (s *Self) updateMembers() error {
 	info := s.bot.Storage.LoginInfo
@@ -745,6 +755,11 @@ func (m Members) Last() *User {
 		return u
 	}
 	return nil
+}
+
+// append
+func (m Members) Apppend(user *User) (results Members) {
+	return append(m, []*User{user}...)
 }
 
 // SearchByUserName 根据用户名查找

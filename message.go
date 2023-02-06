@@ -157,8 +157,36 @@ func (m *Message) IsSendByGroup() bool {
 }
 
 // ReplyText 回复文本消息
+func (m *Message) ReplyTextTest(content string) { //0(*SentMessage, error) {
+	var msg *SendMessage
+	if m.IsSendByGroup() {
+		sender, _ := m.SenderInGroup()
+		//if err == nil && strings.Contains(sender.NickName, "福") {
+		msg = NewSendMessage(MsgTypeText, content+"@"+sender.NickName,
+			m.bot.self.User.UserName, m.FromUserName, "")
+		//}
+	} else {
+		msg = NewSendMessage(MsgTypeText, content, m.bot.self.User.UserName, m.FromUserName, "")
+	}
+
+	info := m.bot.Storage.LoginInfo
+	request := m.bot.Storage.Request
+	m.bot.Caller.WebWxSendMsgTest(msg, info, request)
+	//sentMessage, err := m.bot.Caller.WebWxSendMsg(msg, info, request)
+	//return m.bot.self.sendMessageWrapper(sentMessage, err)
+}
+
+// ReplyText 回复文本消息
 func (m *Message) ReplyText(content string) (*SentMessage, error) {
-	msg := NewSendMessage(MsgTypeText, content, m.bot.self.User.UserName, m.FromUserName, "")
+
+	var msg *SendMessage
+	if m.IsSendByGroup() {
+		sender, _ := m.SenderInGroup()
+		msg = NewSendMessage(MsgTypeText, content+"@"+sender.NickName,
+			m.bot.self.User.UserName, m.FromUserName, "")
+	} else {
+		msg = NewSendMessage(MsgTypeText, content, m.bot.self.User.UserName, m.FromUserName, "")
+	}
 	info := m.bot.Storage.LoginInfo
 	request := m.bot.Storage.Request
 	sentMessage, err := m.bot.Caller.WebWxSendMsg(msg, info, request)

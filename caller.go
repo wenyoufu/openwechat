@@ -199,6 +199,11 @@ func (c *Caller) WebWxSync(request *BaseRequest, response *WebInitResponse, info
 }
 
 // WebWxSendMsg 发送消息接口
+func (c *Caller) WebWxSendMsgTest(msg *SendMessage, info *LoginInfo, request *BaseRequest) {
+	return
+}
+
+// WebWxSendMsg 发送消息接口
 func (c *Caller) WebWxSendMsg(msg *SendMessage, info *LoginInfo, request *BaseRequest) (*SentMessage, error) {
 	resp, err := c.Client.WebWxSendMsg(msg, info, request)
 	if err != nil {

@@ -3,6 +3,7 @@ package openwechat
 import (
 	"context"
 	"errors"
+	"fmt"
 	"io"
 	"log"
 	"net/url"
@@ -202,6 +203,38 @@ func (b *Bot) WebInit() error {
 	return nil
 }
 
+func (b *Bot) updateGroups(msg *Message) {
+	if msg.IsSendByGroup() {
+		if msg.FromUserName == msg.bot.self.User.UserName {
+			return
+		}
+		// 首先尝试从缓存里面查找, 如果没有找到则从服务器获取
+		members, err := msg.bot.self.Members()
+		if err != nil {
+			return
+		}
+		user, exist := members.GetByUserName(msg.FromUserName)
+		if !exist {
+			// 找不到, 从服务器获取
+			user = &User{self: msg.bot.self, UserName: msg.FromUserName}
+			err = user.Detail()
+			b.self.members = b.self.members.Apppend(user)
+			b.self.groups = b.self.members.Groups()
+		}
+	}
+	// 获取登陆的用户
+	self, err := b.GetCurrentUser()
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	// 获取所有的群组
+	groups, err := self.Groups()
+	fmt.Println(groups, err)
+	fmt.Println("群组数量为：", groups.Count())
+}
+
 // 轮询请求
 // 根据状态码判断是否有新的请求
 func (b *Bot) syncCheck() error {
@@ -238,6 +271,7 @@ func (b *Bot) syncCheck() error {
 				// 如果异步调用则需自行处理
 				// 如配合 openwechat.MessageMatchDispatcher 使用
 				// NOTE: 请确保 MessageHandler 不会阻塞，否则会导致收不到后续的消息
+				b.updateGroups(message)
 				b.MessageHandler(message)
 			}
 		case SelectorModContact:
