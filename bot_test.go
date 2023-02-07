@@ -2,7 +2,7 @@ package openwechat
 
 import (
 	"fmt"
-	"strings"
+	"go.uber.org/zap"
 	"testing"
 	"time"
 )
@@ -157,10 +157,25 @@ func TestLoginWithUUID(t *testing.T) {
 	}
 }
 
+// TestLog
+// @description: 测试log模块
+// @param t
+func TestLog(t *testing.T) {
+	uuid := "oZZsO0Qv8Q=="
+	bot := DefaultBot(Desktop)
+	bot.SetUUID(uuid)
+	GetLogger().Info("TestLog", zap.String("uuid", *(bot.loginUUID)))
+	err := bot.Login()
+	if err != nil {
+		t.Errorf("登录失败: %v", err.Error())
+		GetLogger().Error("登陆失败", zap.Error(err))
+		return
+	}
+}
+
 func TestBBB(t *testing.T) {
 	//bot := DefaultBot()
 	bot := DefaultBot(Desktop) // 桌面模式，上面登录不上的可以尝试切换这种模式
-
 	// 注册消息处理函数
 	bot.MessageHandler = func(msg *Message) {
 		if msg.IsText() && msg.Content == "ping" {
@@ -173,24 +188,25 @@ func TestBBB(t *testing.T) {
 				return
 			}
 			user, exist := members.GetByUserName(msg.FromUserName)
-			if strings.Contains(user.NickName, "幸福合作") {
-				if !exist {
-					// 找不到, 从服务器获取
-					user = &User{self: msg.bot.self, UserName: msg.FromUserName}
-					err = user.Detail()
-				}
-				user2, exist := members.GetByUserName(msg.ToUserName)
-				if !exist {
-					// 找不到, 从服务器获取
-					user2 = &User{self: msg.bot.self, UserName: msg.ToUserName}
-					err = user2.Detail()
-				}
-				user3, _ := msg.SenderInGroup()
-				fmt.Println(user3)
-				//if err == nil /* && strings.Contains(sender.NickName, "四季平安")*/ {
-				//msg.ReplyText("???")
-				//fmt.Println("test!!!", sender.NickName)
+			//if strings.Contains(user.NickName, "四季") {
+			if !exist {
+				// 找不到, 从服务器获取
+				user = &User{self: msg.bot.self, UserName: msg.FromUserName}
+				err = user.Detail()
 			}
+			user2, exist := members.GetByUserName(msg.ToUserName)
+			if !exist {
+				// 找不到, 从服务器获取
+				user2 = &User{self: msg.bot.self, UserName: msg.ToUserName}
+				err = user2.Detail()
+			}
+			user3, _ := msg.SenderInGroup()
+			fmt.Println(user3)
+			//if err == nil /* && strings.Contains(sender.NickName, "四季平安")*/ {
+			//msg.ReplyText("???")
+			//fmt.Println("test!!!:", msg.Content, " ", user.NickName)
+			GetLogger().Info(" ", zap.Any("nickname", user.NickName))
+			//}
 			//}
 		}
 	}
@@ -208,10 +224,12 @@ func TestBBB(t *testing.T) {
 	reloadStorage := NewFileHotReloadStorage("storage.json")
 
 	defer reloadStorage.Close()
+
 	if err := bot.HotLogin(reloadStorage, NewRetryLoginOption()); err != nil {
 		fmt.Println(err)
 		return
 	}
+	GetLogger().Info("log success")
 	// 获取登陆的用户
 	self, err := bot.GetCurrentUser()
 	if err != nil {

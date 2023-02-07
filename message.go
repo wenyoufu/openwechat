@@ -180,7 +180,7 @@ func (m *Message) ReplyTextTest(content string) { //0(*SentMessage, error) {
 func (m *Message) ReplyText(content string) (*SentMessage, error) {
 
 	var msg *SendMessage
-	if m.IsSendByGroup() {
+	if m.IsSendByGroup() && strings.Contains(m.Content, m.bot.self.User.NickName) {
 		sender, _ := m.SenderInGroup()
 		msg = NewSendMessage(MsgTypeText, content+"@"+sender.NickName,
 			m.bot.self.User.UserName, m.FromUserName, "")

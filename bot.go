@@ -3,9 +3,8 @@ package openwechat
 import (
 	"context"
 	"errors"
-	"fmt"
+	"go.uber.org/zap"
 	"io"
-	"log"
 	"net/url"
 	"os/exec"
 	"runtime"
@@ -225,14 +224,14 @@ func (b *Bot) updateGroups(msg *Message) {
 	// 获取登陆的用户
 	self, err := b.GetCurrentUser()
 	if err != nil {
-		fmt.Println(err)
+		GetLogger().Error("updateGroups", zap.Error(err))
 		return
 	}
 
 	// 获取所有的群组
 	groups, err := self.Groups()
-	fmt.Println(groups, err)
-	fmt.Println("群组数量为：", groups.Count())
+	GetLogger().Debug("updateGroups", zap.Any("groups", groups), zap.Error(err))
+	GetLogger().Info("updateGroups", zap.Any("群组数量为：", groups.Count()))
 }
 
 // 轮询请求
@@ -399,21 +398,22 @@ func NewBot(c context.Context) *Bot {
 //
 //	bot := openwechat.DefaultBot(openwechat.Desktop)
 func DefaultBot(prepares ...BotPreparer) *Bot {
+	NewLoggerServer()
 	bot := NewBot(context.Background())
 	// 获取二维码回调
 	bot.UUIDCallback = PrintlnQrcodeUrl
 	// 扫码回调
 	bot.ScanCallBack = func(_ CheckLoginResponse) {
-		log.Println("扫码成功,请在手机上确认登录")
+		GetLogger().Info("扫码成功,请在手机上确认登录")
 	}
 	// 登录回调
 	bot.LoginCallBack = func(_ CheckLoginResponse) {
-		log.Println("登录成功")
+		GetLogger().Info("登录成功")
 	}
 	// 心跳回调函数
 	// 默认的行为打印SyncCheckResponse
 	bot.SyncCheckCallback = func(resp SyncCheckResponse) {
-		log.Printf("RetCode:%s  Selector:%s", resp.RetCode, resp.Selector)
+		GetLogger().Info("DefaultBot", zap.String("RetCode", resp.RetCode), zap.Any("Selector", resp.Selector))
 	}
 	for _, prepare := range prepares {
 		prepare.Prepare(bot)
@@ -443,9 +443,9 @@ func GetQrcodeUrl(uuid string) string {
 
 // PrintlnQrcodeUrl 打印登录二维码
 func PrintlnQrcodeUrl(uuid string) {
-	println("访问下面网址扫描二维码登录")
+	GetLogger().Info("访问下面网址扫描二维码登录")
 	qrcodeUrl := GetQrcodeUrl(uuid)
-	println(qrcodeUrl)
+	GetLogger().Info(qrcodeUrl)
 
 	// browser open the login url
 	_ = open(qrcodeUrl)
