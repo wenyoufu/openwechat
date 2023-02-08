@@ -1,0 +1,1 @@
+{"L":"ERROR","T":"70710-07-47 22:47:30","C":"openwechat/bot_test.go:171","M":"登陆失败","error":"login timeout","S":"github.com/eatmoreapple/openwechat.TestLog\n\t/Users/wenyoufu/code/opensource/learn_tools_master_git/openwechat/bot_test.go:171\ntesting.tRunner\n\t/Users/wenyoufu/sdk/go1.17.5/src/testing/testing.go:1259"}

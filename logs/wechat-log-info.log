@@ -1,2 +1,179 @@
 {"L":"INFO","T":"7078-07-29 20:29:09","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
 {"L":"INFO","T":"7078-07-29 20:29:09","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/IfEXCXFbWQ=="}
+{"L":"INFO","T":"70710-07-47 22:47:29","C":"openwechat/bot_test.go:167","M":"TestLog","uuid":"oZZsO0Qv8Q=="}
+{"L":"INFO","T":"70710-07-47 22:47:29","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"70710-07-47 22:47:29","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/oZZsO0Qv8Q=="}
+{"L":"INFO","T":"70710-07-47 22:47:29","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-47 22:47:30","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-48 22:48:25","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-48 22:48:26","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-48 22:48:26","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"70710-07-48 22:48:26","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/oYQzw3Snhw=="}
+{"L":"INFO","T":"70710-07-48 22:48:26","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-48 22:48:51","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-48 22:48:51","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-48 22:48:55","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-48 22:48:55","C":"openwechat/bot.go:418","M":"扫码成功,请在手机上确认登录"}
+{"L":"INFO","T":"70710-07-48 22:48:55","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-49 22:49:04","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-49 22:49:04","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-49 22:49:05","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-49 22:49:05","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"70710-07-49 22:49:06","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-26 14:26:07","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-26 14:26:07","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-26 14:26:07","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"8082-08-26 14:26:07","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/YYUx73ULgA=="}
+{"L":"INFO","T":"8082-08-27 14:27:03","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-27 14:27:03","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-27 14:27:03","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-27 14:27:04","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-27 14:27:04","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"8082-08-27 14:27:06","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:24:44","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:24:44","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:24:44","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 15:24:44","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/YY51TGIIAg=="}
+{"L":"INFO","T":"2023-02-08 15:24:51","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:25:09","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:25:09","C":"openwechat/bot.go:418","M":"扫码成功,请在手机上确认登录"}
+{"L":"INFO","T":"2023-02-08 15:25:09","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:25:30","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:25:30","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:25:31","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:25:31","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 15:25:32","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:19","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:19","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:19","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:16:19","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/YaST2YjvgQ=="}
+{"L":"INFO","T":"2023-02-08 17:16:19","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:43","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:43","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:43","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:16:43","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/gcKpm_TV2g=="}
+{"L":"INFO","T":"2023-02-08 17:16:43","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:59","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:16:59","C":"openwechat/bot.go:418","M":"扫码成功,请在手机上确认登录"}
+{"L":"INFO","T":"2023-02-08 17:16:59","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:08","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:08","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:09","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:09","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:10","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:18","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:19","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:19","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:17:19","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/wZcLp94UYg=="}
+{"L":"INFO","T":"2023-02-08 17:17:19","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:53","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:53","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:17:53","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:17:53","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/AYPGZg1B4A=="}
+{"L":"INFO","T":"2023-02-08 17:17:53","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:18:16","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:18:17","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:18:17","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:18:17","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/QeDDV7fUxg=="}
+{"L":"INFO","T":"2023-02-08 17:18:17","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:18:49","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:18:49","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:18:49","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:18:49","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/QbRVgp7-DA=="}
+{"L":"INFO","T":"2023-02-08 17:18:49","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:19:00","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:19:00","C":"openwechat/bot.go:418","M":"扫码成功,请在手机上确认登录"}
+{"L":"INFO","T":"2023-02-08 17:19:00","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:19:14","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:19:14","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:19:16","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:19:16","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:19:17","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:06","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:07","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:07","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:20:07","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/YcVtkBaiWA=="}
+{"L":"INFO","T":"2023-02-08 17:20:07","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:14","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:14","C":"openwechat/bot.go:418","M":"扫码成功,请在手机上确认登录"}
+{"L":"INFO","T":"2023-02-08 17:20:14","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:23","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:23","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:24","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:24","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:20:25","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:21:33","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:21:33","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:21:33","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 17:21:33","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/AZQT9wxOJA=="}
+{"L":"INFO","T":"2023-02-08 17:55:11","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 17:55:11","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:51:31","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:51:31","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:51:32","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:51:33","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:51:33","C":"openwechat/bot.go:457","M":"访问下面网址扫描二维码登录"}
+{"L":"INFO","T":"2023-02-08 19:51:33","C":"openwechat/bot.go:459","M":"https://login.weixin.qq.com/qrcode/oa0HJ0gtVg=="}
+{"L":"INFO","T":"2023-02-08 19:51:33","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:51:48","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:51:48","C":"openwechat/bot.go:418","M":"扫码成功,请在手机上确认登录"}
+{"L":"INFO","T":"2023-02-08 19:51:48","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:10","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:10","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:10","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:10","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:12","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:19","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/bot.go:422","M":"登录成功"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/bot_test.go:232","M":"log success"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/bot.go:427","M":"DefaultBot","RetCode":"0","Selector":"2"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:20","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:21","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:22","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:22","C":"openwechat/bot.go:235","M":"updateGroups","群组数量为：":3}
+{"L":"INFO","T":"2023-02-08 19:52:22","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:23","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:23","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/bot.go:235","M":"updateGroups","群组数量为：":4}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/bot_test.go:208","M":" ","nickname":"京东内购7群"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/bot.go:427","M":"DefaultBot","RetCode":"0","Selector":"2"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/bot.go:235","M":"updateGroups","群组数量为：":4}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/bot_test.go:208","M":" ","nickname":"京东内购7群"}
+{"L":"INFO","T":"2023-02-08 19:52:24","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:25","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:25","C":"openwechat/bot.go:427","M":"DefaultBot","RetCode":"0","Selector":"2"}
+{"L":"INFO","T":"2023-02-08 19:52:25","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:25","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:52:25","C":"openwechat/bot.go:235","M":"updateGroups","群组数量为：":4}
+{"L":"INFO","T":"2023-02-08 19:52:25","C":"openwechat/bot_test.go:208","M":" ","nickname":"京东内购7群"}
+{"L":"INFO","T":"2023-02-08 19:52:25","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:53:56","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:53:57","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:27","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/bot_test.go:232","M":"log success"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/bot.go:427","M":"DefaultBot","RetCode":"0","Selector":"2"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:28","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:30","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:30","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:30","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:31","C":"openwechat/client.go:110","M":"do","reponseError":"json: unsupported type: func() (io.ReadCloser, error)"}
+{"L":"INFO","T":"2023-02-08 19:54:31","C":"openwechat/bot.go:235","M":"updateGroups","群组数量为：":4}
+{"L":"INFO","T":"2023-02-08 19:54:31","C":"openwechat/bot_test.go:208","M":" ","nickname":"🌴 🐎 幸福合作群C"}
+{"L":"INFO","T":"2023-02-08 19:54:31","C":"openwechat/client.go:97","M":"do","reqError":"json: unsupported type: func() (io.ReadCloser, error)"}

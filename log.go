@@ -215,7 +215,7 @@ func (l *Logger) cores() zap.Option {
 	})
 }
 func timeEncoder(t time.Time, enc zapcore.PrimitiveArrayEncoder) {
-	enc.AppendString(t.Format("2023-02-04 15:04:05"))
+	enc.AppendString(t.Format("2006-01-02 15:04:05"))
 }
 
 func timeUnixNano(t time.Time, enc zapcore.PrimitiveArrayEncoder) {

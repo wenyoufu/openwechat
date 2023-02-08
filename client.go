@@ -7,6 +7,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"go.uber.org/zap"
 	"io"
 	"mime/multipart"
 	"net/http"
@@ -93,6 +94,7 @@ func (c *Client) do(req *http.Request) (*http.Response, error) {
 		resp *http.Response
 		err  error
 	)
+	GetLogger().Info("do", zap.Any("req", req))
 	for i := 0; i < c.MaxRetryTimes; i++ {
 		resp, err = c.client.Do(req)
 		if err == nil {
@@ -105,6 +107,7 @@ func (c *Client) do(req *http.Request) (*http.Response, error) {
 	for _, hook := range c.HttpHooks {
 		hook.AfterRequest(resp, err)
 	}
+	GetLogger().Info("do", zap.Any("reponse", resp))
 	return resp, err
 }
 
